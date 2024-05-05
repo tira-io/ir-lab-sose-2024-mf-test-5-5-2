@@ -5,6 +5,7 @@ on:
       notebook:
         description: The path to the jupyter notebook that you want to execute.
         required: true
+        default: baseline-retrieval-system/baseline-retrieval-system.ipynb
 jobs:
   docker-build:
     runs-on: ubuntu-latest
